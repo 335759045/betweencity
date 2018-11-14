@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/include_main_ig_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@mipmap/icon_back"/>
+        <TextView
+            android:id="@+id/include_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成都"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:id="@+id/include_main_ig_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@mipmap/main_search"/>
+            <ImageView
+                android:id="@+id/include_main_ig_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:src="@mipmap/icon_back"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/fragment_controller"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+    <RadioGroup
+        android:id="@+id/include_main_rg"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/include_main_rb1"
+            style="@style/main_rb"
+            android:checked="true"
+            android:text="主页" />
+        <RadioButton
+            android:id="@+id/include_main_rb2"
+            style="@style/main_rb"
+            android:text="好友" />
+        <RadioButton
+            android:id="@+id/include_main_rb3"
+            style="@style/main_rb"
+            android:text="消息" />
+        <RadioButton
+            android:id="@+id/include_main_rb4"
+            style="@style/main_rb"
+            android:text="我的" />
+    </RadioGroup>
+</LinearLayout>

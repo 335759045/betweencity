@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStateView">
+        <attr name="msv_loadingView" format="reference" />
+        <attr name="msv_errorView" format="reference" />
+        <attr name="msv_emptyView" format="reference" />
+        <attr name="msv_unauthView" format="reference" />
+        <attr name="msv_viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="loading" value="1" />
+            <enum name="error" value="2" />
+            <enum name="empty" value="3" />
+            <enum name="unauth" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SideBar">
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="touch_color" format="color" />
+        <attr name="untouch_color" format="color" />
+    </declare-styleable>
+    <!-- Textview两端对齐的自定义属性-->
+</resources>

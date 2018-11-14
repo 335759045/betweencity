@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">城市之间</string>
+
+    <string name="btn_send_code_again">重试(%1$dS)</string>
+    <string name="btn_send_code">获取验证码</string>
+    <string name="kg">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+</resources>

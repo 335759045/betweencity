@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/loading_dialog_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true"
+        app:cpv_color="@color/colorPrimary"
+        android:background="@color/transparent"/>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/loading_dialog_L"-->
+        <!--android:layout_width="400px"-->
+        <!--android:layout_height="400px"-->
+        <!--android:background="@drawable/shape_fff"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/loading_dialog_image"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scaleType="center"-->
+            <!--android:src="@mipmap/dialog"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/loading_dialog_tex"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="#333"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
